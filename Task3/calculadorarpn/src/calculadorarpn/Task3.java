@@ -4,7 +4,7 @@ import java.io.*;
 public class Task3 {
 
 	public static void main(String[] args) throws Exception {     
-        File RPN = new File("Calc2.stk");
+        File RPN = new File("Calc1.stk");
         Scanner in = new Scanner(RPN); 
         List<Token> tokens=new ArrayList<Token>();
         Stack<Integer> pile = new Stack<Integer>();
