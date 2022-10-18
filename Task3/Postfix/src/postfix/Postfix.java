@@ -12,7 +12,7 @@
  * Contributors: 
  *     Henrique Rebelo      initial design and implementation 
  *     http://www.cin.ufpe.br/~hemr/
- * ******************************************************************/
+ * *****************************************************************/
 
 package postfix;
 
