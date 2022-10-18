@@ -116,9 +116,9 @@ public class Postfix {
 				printAST(expr);
 			}
 
-			interpreter.env.put("x", "5");
-			interpreter.env.put("y", "3");
-			interpreter.env.put("z", "1");
+			interpreter.env.put("x", "6");
+			interpreter.env.put("y", "10");
+			interpreter.env.put("z", "7");
 
 			System.out.println(interpreter.interp(expr));
 		} catch (LexError e) {
